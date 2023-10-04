@@ -11,7 +11,7 @@ body {
     justify-content: center; 
     align-items: center; 
     min-height: 100vh; 
-    background: url('Engineering software.png') no-repeat;
+    background: url('images/login_pic.png') no-repeat;
     background-size: cover;
     background-position: center;
     font-family: 'Nunito', sans-serif; 
@@ -165,6 +165,11 @@ button {
 button:hover { 
     background: rgba(214, 86, 64, 1); 
 } 
+
+.logo {
+    font-size: 2.5rem;
+    color: var(--black);
+}
  
  
 @media (max-width: 880px) { 
